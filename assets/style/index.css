@@ -76,9 +76,14 @@ img:hover {
   text-align: center;
 }
 
+input {
+  padding-left: 10px;
+}
+
 .movieName, .cityName {
   margin-top: 50px;
   height: 40px;
+  border-radius: 8px;
 }
 
 .movieName {
