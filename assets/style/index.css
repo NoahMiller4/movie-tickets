@@ -74,10 +74,13 @@ img:hover {
 
 .input {
   text-align: center;
+  margin-top: 20px;
 }
 
 input {
   padding-left: 10px;
+  font-size: 18px;
+  letter-spacing: 0.4px;
 }
 
 .movieName, .cityName {
@@ -113,4 +116,17 @@ button {
 
 button:hover {
   background-color: #df7b00;
+}
+
+/*-----------------------------------------------------*/
+/* Posters                                             */
+/*-----------------------------------------------------*/
+
+.one, .two {
+  height: 400px;
+}
+
+h2 {
+  color: #fff;
+  font-size: 1.8rem;
 }

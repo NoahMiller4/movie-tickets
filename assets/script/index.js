@@ -3,7 +3,7 @@
     Object-oriented JavaScript
     Noah Miller
 
-    Retrieving remote data with fetch()
+    Movie Theatre mock
 
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
 
@@ -11,12 +11,18 @@
 
 import { select, print } from './utils.js';
 
-// Don't use this in your assignment, must fetch
-import info from './cities.js';
-print(info.cities);
-
 const url = './assets/script/cities.json';
-const list = select('section');
+const url2 = './assets/script/movies.json';
+const list = select('.one');
+const section = select('.two');
+
+function capitalize(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+function lowerCaseName(string) {
+    return string.toLowerCase();
+}
 
 function listCities(array) {
     list.innerHTML = '';
@@ -52,10 +58,26 @@ async function getCities() {
 
         const data = await response.json();
         print(data.cities);
-        listCities(data.cities);
+        // listCities(data.cities);
     } catch(error) {
         print(error.message)
     }
 }
 
+async function getMovies() {
+    try {
+        const response = await fetch(url2, options);
+
+        if (!response.ok) {
+            throw new Error (`${response.statusText} (${response.status})`)
+        }
+
+        const data = await response.json();
+        print(data.movies);
+    }   catch(error) {
+        print(error.message)
+    }
+}
+
 getCities();
+getMovies();
