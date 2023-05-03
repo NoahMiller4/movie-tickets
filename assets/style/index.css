@@ -76,7 +76,7 @@ img:hover {
   text-align: center;
 }
 
-.movieName, .cityName, .search {
+.movieName, .cityName {
   margin-top: 50px;
   height: 40px;
 }
