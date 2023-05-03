@@ -1,0 +1,111 @@
+@import url(./reset.css);
+
+/*----------- Container -------*/
+
+.container {
+  width: min(100% - 30px, 1200px);
+  margin-inline: auto;
+}
+  
+body {
+  background-color: #1a1c24;
+}
+
+/*-----------------------------------------------------*/
+/* Header                                              */
+/*-----------------------------------------------------*/
+
+header {
+  background-color: #22242d;
+}
+
+.flex {
+  height: 60px;
+  justify-content: space-between;
+  display: flex;
+  color: #fff;
+}
+
+h1 {
+  position: relative;
+  display: inline-block;
+  font-size: 32px;
+  line-height: 60px;
+  bottom: 10px;
+}
+
+ul li {
+  justify-content: right;
+  display: inline-block;
+  line-height: 60px;
+}
+
+ul li + li {
+  margin-left: 15px;
+}
+
+nav ul li a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+header nav ul li a:hover {
+  font-weight: 500;
+  color: #e7e8e9;
+}
+
+img {
+  margin-right: 10px;
+  padding-top: 5px;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+/*-----------------------------------------------------*/
+/* Inputs                                              */
+/*-----------------------------------------------------*/
+
+.input {
+  text-align: center;
+}
+
+.movieName, .cityName, .search {
+  margin-top: 50px;
+  height: 40px;
+}
+
+.movieName {
+  margin: 20px;
+  width: 400px;
+
+}
+
+.cityName {
+  width: 200px;
+  margin: 10px;
+}
+
+button {
+  text-align: center;
+  width: 100px;
+  height: 40px;
+  background-color: #ff8c00;
+  border: 1px solid rgba(255, 255, 255, 0.171);
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: 0.4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #df7b00;
+}
