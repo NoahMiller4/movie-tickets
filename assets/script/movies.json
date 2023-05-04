@@ -1,44 +1,54 @@
 {
   "movies": [
       { 
+        "id": 1,
         "name": "Avengers: Infinity War",
-        "photo": "https://github.com/mrspecht/media/blob/main/img/avengers-infinity-war.jpg"
+        "image": "https://raw.githubusercontent.com/mrspecht/media/main/img/avengers-infinity-war.jpg"
     },
     { 
+        "id": 2,
         "name": "Eternals",
-        "photo": "https://github.com/mrspecht/media/blob/main/img/eternals.jpg"
+        "image": "https://raw.githubusercontent.com/mrspecht/media/main/img/eternals.jpg"
     },
     { 
+        "id": 3,
         "name": "Spider-Man: No Way Home",
-        "photo": "https://github.com/mrspecht/media/blob/main/img/spider-man-no-way-home.jpg"
+        "image": "https://raw.githubusercontent.com/mrspecht/media/main/img/spider-man-no-way-home.jpg"
     },
     { 
+        "id": 4,
         "name": "Grand Budapest Hotel",
-        "photo": "https://github.com/mrspecht/media/blob/main/img/the-grand-budapest-hotel.jpg"
+        "image": "https://raw.githubusercontent.com/mrspecht/media/main/img/the-grand-budapest-hotel.jpg"
     },
     { 
+        "id": 5,
         "name": "Toy Story 3",
-        "photo": "https://github.com/mrspecht/media/blob/main/img/toy-story-3.jpg"
+        "image": "https://raw.githubusercontent.com/mrspecht/media/main/img/toy-story-3.jpg"
     },
     { 
+        "id": 6,
         "name": "Titanic",
-        "photo": "https://github.com/mrspecht/media/blob/main/img/titanic.jpg"
+        "image": "https://raw.githubusercontent.com/mrspecht/media/main/img/titanic.jpg"
     },
     { 
+        "id": 7,
         "name": "Jurassic Park",
-        "photo": "https://github.com/mrspecht/media/blob/main/img/jurassic-park.jpg"
+        "image": "https://raw.githubusercontent.com/mrspecht/media/main/img/jurassic-park.jpg"
     },
     { 
+        "id": 8,
         "name": "My Cousin Vinnie",
-        "photo": "https://github.com/mrspecht/media/blob/main/img/my-cousin-vinnie.jpg"
+        "image": "https://raw.githubusercontent.com/mrspecht/media/main/img/my-cousin-vinny.jpg"
     },
     { 
+        "id": 9,
         "name": "JFK",
-        "photo": "https://github.com/mrspecht/media/blob/main/img/jfk.jpg"
+        "image": "https://raw.githubusercontent.com/mrspecht/media/main/img/jfk.jpg"
     },
     { 
+        "id": 10,
         "name": "Robocop",
-        "photo": "https://github.com/mrspecht/media/blob/main/img/Robocop.jpg"
+        "image": "https://raw.githubusercontent.com/mrspecht/media/main/img/robocop.jpg"
     }
   ]
 }
