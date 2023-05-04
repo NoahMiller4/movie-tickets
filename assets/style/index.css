@@ -94,6 +94,7 @@ input {
   padding-left: 30px;
   font-size: 18px;
   letter-spacing: 0.4px;
+  border: 2px solid #000;
 }
 
 .movieName, .cityName {
@@ -131,6 +132,28 @@ button:hover {
   background-color: #df7b00;
 }
 
+.autocomplete {
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  width: 400px;
+  border-radius: 8px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.one {
+  left: 235px;
+  bottom: 21px;
+}
+
+.two {
+  width: 200px;
+  left: 670px;
+  bottom: 80px;
+}
 /*-----------------------------------------------------*/
 /* Posters                                             */
 /*-----------------------------------------------------*/

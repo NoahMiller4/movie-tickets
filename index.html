@@ -36,13 +36,15 @@
                 </nav>
             </div>
          </header>
-            <div class="container">
-               <div class="input">
+            <div class="container show">
+               <div class="input wrapper">
                   <img src="./assets/image/search-2-xxl.png" class="icon right">
-                  <input class="movieName" type="text" placeholder="Movie Name">
+                  <input class="movieName" type="text" placeholder="Movie Name" list="movie">
                   <img src="./assets/image/define-location-xl.png" class="icon">
-                  <input class="cityName" type="text" placeholder="City Name">
+                  <input class="cityName" type="text" placeholder="City Name" list="cities">
                   <button class="search">Search</button>
+                     <datalist id="movie"></datalist>
+                     <datalist id="cities"></datalist>
                </div>
                <section>
                   <h2>Now Playing</h2>
