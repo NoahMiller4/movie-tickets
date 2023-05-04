@@ -1,5 +1,4 @@
-{
-    "cities": [
+[
         {
         "name": "Alberta"
         },
@@ -24,5 +23,6 @@
         {
         "name": "Winnipeg"
         }
-        ]
-}
+        
+    
+]

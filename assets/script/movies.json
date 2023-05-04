@@ -1,5 +1,5 @@
-{
-  "movies": [
+ 
+ [
       { 
         "id": 1,
         "name": "Avengers: Infinity War",
@@ -51,4 +51,4 @@
         "image": "https://raw.githubusercontent.com/mrspecht/media/main/img/robocop.jpg"
     }
   ]
-}
+
