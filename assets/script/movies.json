@@ -1,0 +1,54 @@
+{
+  "movies": [
+      { 
+        "id": 1,
+        "name": "Avengers: Infinity War",
+        "image": "https://raw.githubusercontent.com/mrspecht/media/main/img/avengers-infinity-war.jpg"
+    },
+    { 
+        "id": 2,
+        "name": "Eternals",
+        "image": "https://raw.githubusercontent.com/mrspecht/media/main/img/eternals.jpg"
+    },
+    { 
+        "id": 3,
+        "name": "Spider-Man: No Way Home",
+        "image": "https://raw.githubusercontent.com/mrspecht/media/main/img/spider-man-no-way-home.jpg"
+    },
+    { 
+        "id": 4,
+        "name": "Grand Budapest Hotel",
+        "image": "https://raw.githubusercontent.com/mrspecht/media/main/img/the-grand-budapest-hotel.jpg"
+    },
+    { 
+        "id": 5,
+        "name": "Toy Story 3",
+        "image": "https://raw.githubusercontent.com/mrspecht/media/main/img/toy-story-3.jpg"
+    },
+    { 
+        "id": 6,
+        "name": "Titanic",
+        "image": "https://raw.githubusercontent.com/mrspecht/media/main/img/titanic.jpg"
+    },
+    { 
+        "id": 7,
+        "name": "Jurassic Park",
+        "image": "https://raw.githubusercontent.com/mrspecht/media/main/img/jurassic-park.jpg"
+    },
+    { 
+        "id": 8,
+        "name": "My Cousin Vinnie",
+        "image": "https://raw.githubusercontent.com/mrspecht/media/main/img/my-cousin-vinny.jpg"
+    },
+    { 
+        "id": 9,
+        "name": "JFK",
+        "image": "https://raw.githubusercontent.com/mrspecht/media/main/img/jfk.jpg"
+    },
+    { 
+        "id": 10,
+        "name": "Robocop",
+        "image": "https://raw.githubusercontent.com/mrspecht/media/main/img/robocop.jpg"
+    }
+  ]
+}
