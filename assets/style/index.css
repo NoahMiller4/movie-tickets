@@ -138,6 +138,8 @@ button:hover {
 
 h2 {
   margin-bottom: 10px;
+  padding-left: 10px;
+  font-weight: 600px;
 }
 
 h2, h3 {
@@ -145,7 +147,6 @@ h2, h3 {
   font-size: 2rem;
   margin-left: 5px;
   letter-spacing: 0.4px;
-  font-weight: 400;
 }
 
 .img {
@@ -157,6 +158,7 @@ h2, h3 {
 h3 {
   width: 200px;
   overflow: hidden;
+  font-weight: 400;
 }
 
 .box {
