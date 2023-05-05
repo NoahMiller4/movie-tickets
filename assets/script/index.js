@@ -24,7 +24,6 @@ function lowerCaseName(string) {
     return string.toLowerCase();
 }
 
-// fetch function
 const options =  {
     method: 'GET',
     headers: { 'Content-Type': 'application/json; charset =UTF-8'},
@@ -38,12 +37,8 @@ async function getCities() {
         if (!response.ok) {
             throw new Error(`${response.statusText} (${response.status})`)
         }
-
-        const data = await response.json();
-        print(data.cities);
-        // listCities(data.cities);
     } catch(error) {
-        print(error.message)
+
     }
 }
 
@@ -55,63 +50,25 @@ async function getMovies() {
             throw new Error(`${response.statusText} (${response.status})`)
         }
 
-        const data = await response.json();
-        print(data.name);
-        // listCities(data.cities);
     } catch(error) {
-        print(error.message)
     }
 }
 
-
 function showMovies() {
     fetch(url2)
-        .then(response => response.json())
-        .then(data => {
-           document.querySelector('section').innerHTML += `
-           <div class='box'>
-                <img class="img" src=${data[0].image}>
-                <h3>${data[0].name}</h3>
-            </div>
+    .then(res => res.json())
+    .then(data => handler(data))
+        function handler(data) {
+        data.forEach(arrayObject => {
+            document.querySelector('section').innerHTML += `
             <div class='box'>
-                <img class="img" src=${data[1].image}>
-                <h3>${data[1].name}</h3>
-            </div>
-            <div class='box'>
-                <img class="img" src=${data[2].image}>
-                <h3>${data[2].name}</h3>
-            </div>
-            <div class='box'>
-                <img class="img" src=${data[3].image}>
-                <h3>${data[3].name}</h3>
-            </div>
-            <div class='box'>
-                <img class="img" src=${data[4].image}>
-                <h3>${data[4].name}</h3>
-            </div>
-            <div class='box'>
-                <img class="img" src=${data[5].image}>
-                <h3>${data[5].name}</h3>
-            </div>
-            <div class='box'>
-                <img class="img" src=${data[6].image}>
-                <h3>${data[6].name}</h3>
-            </div>
-            <div class='box'>
-                <img class="img" src=${data[7].image}>
-                <h3>${data[7].name}</h3>
-            </div>
-            <div class='box'>
-                <img class="img" src=${data[8].image}>
-                <h3>${data[8].name}</h3>
-            </div>
-            <div class='box'>
-                <img class="img" src=${data[9].image}>
-                <h3>${data[9].name}</h3>
-            </div>
-           `
-        })
+                 <img class="img" src=${arrayObject.image}>
+                 <h3>${arrayObject.name}</h3>
+             </div>`
+        });
 }
+}
+
 
 function cityName() {
 fetch(url)
@@ -141,10 +98,6 @@ fetch(url2)
 }
 }
 
-
-    
 showMovies();
-getCities();
-getMovies();
 cityName();
 movieName();
